@@ -23,13 +23,33 @@ const NavBar = () => {
             <img src={Logo} alt="logo" style={{width: '75px'}}/>
         </div>
 
-            <ul className='hidden md:flex'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Expertise</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
+        <ul className='hidden md:flex'>
+        <li>
+          <Link to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to='about' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to='expertise' smooth={true} duration={500}>
+            Expertise
+          </Link>
+        </li>
+        <li>
+          <Link to='work' smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link to='contact' smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
+      </ul>
 
         <div onClick={handleClick} className='md:hidden z-10'>
             {!nav ? <FaBars/>: <FaTimes/>}
@@ -57,7 +77,7 @@ const NavBar = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='expertise' smooth={true} duration={500}>
-            Skills
+            Expertise
           </Link>
         </li>
         <li className='py-6 text-4xl'>
