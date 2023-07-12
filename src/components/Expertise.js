@@ -16,7 +16,7 @@ import Dotnet from '../assets/images/dotnet.png'
 
 const Expertise = () => {
   return (
-    <div name='expertise' className='w-full h-screen text-gray-400 bg-[#162447]'>
+    <div name='expertise' className='w-full h-auto text-gray-400 bg-[#162447]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Expertise</p>
