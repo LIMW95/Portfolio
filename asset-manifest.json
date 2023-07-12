@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.18f5f23c.css",
-    "main.js": "/static/js/main.e41b4928.js",
-    "static/media/dotnet.png": "/static/media/dotnet.5c65fee4e5c0c094057a.png",
-    "static/media/Docker.png": "/static/media/Docker.1b2aa23c80135ab6d84e.png",
-    "static/media/Php.png": "/static/media/Php.0f57c866684ff22bbce8.png",
-    "static/media/React.png": "/static/media/React.4ab3b68512c9a553c53c.png",
-    "static/media/CSS.png": "/static/media/CSS.3f1a3e920ea1a995de49.png",
-    "static/media/JAVA.png": "/static/media/JAVA.ce2bb92e81932462c5e8.png",
-    "static/media/GitHUB.png": "/static/media/GitHUB.47f932f3e5fa209fac79.png",
-    "static/media/API.png": "/static/media/API.b5a828f30d318c09eb7e.png",
-    "static/media/Firebase.png": "/static/media/Firebase.bd3d80eb04681acb5d65.png",
-    "static/media/mySQL.png": "/static/media/mySQL.678512061ef93e7058b4.png",
-    "static/media/Mongo.png": "/static/media/Mongo.bcacdbda194e1ac5182c.png",
-    "static/media/HTML.png": "/static/media/HTML.e2dd3160942216e842e1.png",
-    "static/media/Node.png": "/static/media/Node.f19c649cac358de8c054.png",
-    "static/media/JavaScript.png": "/static/media/JavaScript.4d1d6713101dfb18a108.png",
-    "index.html": "/index.html",
-    "main.18f5f23c.css.map": "/static/css/main.18f5f23c.css.map",
-    "main.e41b4928.js.map": "/static/js/main.e41b4928.js.map"
+    "main.css": "/Portfolio/static/css/main.18f5f23c.css",
+    "main.js": "/Portfolio/static/js/main.eb7a277d.js",
+    "static/media/dotnet.png": "/Portfolio/static/media/dotnet.5c65fee4e5c0c094057a.png",
+    "static/media/Docker.png": "/Portfolio/static/media/Docker.1b2aa23c80135ab6d84e.png",
+    "static/media/Php.png": "/Portfolio/static/media/Php.0f57c866684ff22bbce8.png",
+    "static/media/React.png": "/Portfolio/static/media/React.4ab3b68512c9a553c53c.png",
+    "static/media/CSS.png": "/Portfolio/static/media/CSS.3f1a3e920ea1a995de49.png",
+    "static/media/JAVA.png": "/Portfolio/static/media/JAVA.ce2bb92e81932462c5e8.png",
+    "static/media/GitHUB.png": "/Portfolio/static/media/GitHUB.47f932f3e5fa209fac79.png",
+    "static/media/API.png": "/Portfolio/static/media/API.b5a828f30d318c09eb7e.png",
+    "static/media/Firebase.png": "/Portfolio/static/media/Firebase.bd3d80eb04681acb5d65.png",
+    "static/media/mySQL.png": "/Portfolio/static/media/mySQL.678512061ef93e7058b4.png",
+    "static/media/Mongo.png": "/Portfolio/static/media/Mongo.bcacdbda194e1ac5182c.png",
+    "static/media/HTML.png": "/Portfolio/static/media/HTML.e2dd3160942216e842e1.png",
+    "static/media/Node.png": "/Portfolio/static/media/Node.f19c649cac358de8c054.png",
+    "static/media/JavaScript.png": "/Portfolio/static/media/JavaScript.4d1d6713101dfb18a108.png",
+    "index.html": "/Portfolio/index.html",
+    "main.18f5f23c.css.map": "/Portfolio/static/css/main.18f5f23c.css.map",
+    "main.eb7a277d.js.map": "/Portfolio/static/js/main.eb7a277d.js.map"
   },
   "entrypoints": [
     "static/css/main.18f5f23c.css",
-    "static/js/main.e41b4928.js"
+    "static/js/main.eb7a277d.js"
   ]
 }
