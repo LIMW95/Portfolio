@@ -12,7 +12,7 @@ const About = () => {
               About
             </p>
           </div>
-          <div className='absolute left-0 top-28 transform -translate-y-1/2 -translate-x-1/2 md:w-[40%] sm:-[20%] z-[10]'>
+          <div className='absolute left-0 top-36 transform -translate-y-1/2 -translate-x-1/2 md:w-[40%] sm:-[20%] z-[10]'>
             <img src={Sit} alt='face' className='w-full h-auto'/>
           </div>
         </div>
