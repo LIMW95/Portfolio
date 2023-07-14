@@ -12,11 +12,11 @@ const About = () => {
               About
             </p>
           </div>
-          <div className='absolute left-0 top-14 transform -translate-y-1/2 -translate-x-1/2 md:w-[40%] sm:-[20%] z-[10]'>
+          <div className='absolute left-0 top-28 transform -translate-y-1/2 -translate-x-1/2 md:w-[40%] sm:-[20%] z-[10]'>
             <img src={Sit} alt='face' className='w-full h-auto'/>
           </div>
         </div>
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 relative z-[15]'>
+        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-12 px-4 relative z-[15]'>
           <div className='sm:text-right text-4xl font-bold'>
           <p className='intersecting-text'>Hi. I'm Wilson Lim, nice to meet you. Please take a look around.</p>
           </div>
