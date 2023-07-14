@@ -16,12 +16,12 @@ const About = () => {
             <img src={Sit} alt='face' className='w-full h-auto'/>
           </div>
         </div>
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-12 px-4 relative z-[15]'>
+        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 relative z-[15]'>
           <div className='sm:text-right text-4xl font-bold'>
           <p className='intersecting-text'>Hi. I'm Wilson Lim, nice to meet you. Please take a look around.</p>
           </div>
           <div>
-            <p>I have a strong passion for developing exceptional software solutions that enhance the lives of individuals and businesses. My expertise lies in creating custom software for a diverse range of clients, from small businesses to large enterprise corporations. Imagine having a software expert readily available to cater to your needs and provide innovative solutions. How could this level of expertise and accessibility transform your business or personal endeavors?</p>  
+          <p className='intersecting-text'>I have a strong passion for developing exceptional software solutions that enhance the lives of individuals and businesses. My expertise lies in creating custom software for a diverse range of clients, from small businesses to large enterprise corporations. Imagine having a software expert readily available to cater to your needs and provide innovative solutions. How could this level of expertise and accessibility transform your business or personal endeavors?</p>  
           </div>
         </div>
       </div>
