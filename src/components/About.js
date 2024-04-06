@@ -4,7 +4,7 @@ import '../assets/css/about.css'; // Import the CSS file
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#162447] text-gray-300 relative'>
+    <div name='about' className='w-full h-screen bg-[#162447] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 relative'>
           <div className='sm:text-right pb-8 pl-4 z-[15]'>

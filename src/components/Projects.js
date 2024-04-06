@@ -3,14 +3,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const Projects = () => {
 
-  const handleType = (count: number) => {
-    // access word count number
-    console.log(count)}
-  
 
-  const handleDone = () => {
-    console.log(`Done after 5 loops!`)
-  }
 
   return (
     <div className='App'>
