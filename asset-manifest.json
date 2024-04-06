@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d7f6d89a.css",
-    "main.js": "/Portfolio/static/js/main.f60071e2.js",
+    "main.css": "/Portfolio/static/css/main.345e5486.css",
+    "main.js": "/Portfolio/static/js/main.45e98746.js",
     "static/media/comptia.png": "/Portfolio/static/media/comptia.201f2399aaf2f49719ac.png",
     "static/media/foritnetnse.png": "/Portfolio/static/media/foritnetnse.fbfb3c417ed2e832f06e.png",
     "static/media/Sit.png": "/Portfolio/static/media/Sit.bfd136e8f763b990e2a0.png",
+    "static/media/MobPos.png": "/Portfolio/static/media/MobPos.3a990f83f924617c02ed.png",
+    "static/media/Web2.png": "/Portfolio/static/media/Web2.7476c004cbc0b56aa383.png",
     "static/media/MERN.png": "/Portfolio/static/media/MERN.eca45407bf5a88189daf.png",
     "static/media/dotnet.png": "/Portfolio/static/media/dotnet.5c65fee4e5c0c094057a.png",
     "static/media/Docker.png": "/Portfolio/static/media/Docker.1b2aa23c80135ab6d84e.png",
@@ -21,11 +23,11 @@
     "static/media/Node.png": "/Portfolio/static/media/Node.f19c649cac358de8c054.png",
     "static/media/JavaScript.png": "/Portfolio/static/media/JavaScript.4d1d6713101dfb18a108.png",
     "index.html": "/Portfolio/index.html",
-    "main.d7f6d89a.css.map": "/Portfolio/static/css/main.d7f6d89a.css.map",
-    "main.f60071e2.js.map": "/Portfolio/static/js/main.f60071e2.js.map"
+    "main.345e5486.css.map": "/Portfolio/static/css/main.345e5486.css.map",
+    "main.45e98746.js.map": "/Portfolio/static/js/main.45e98746.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7f6d89a.css",
-    "static/js/main.f60071e2.js"
+    "static/css/main.345e5486.css",
+    "static/js/main.45e98746.js"
   ]
 }
