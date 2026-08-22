@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import anime from 'animejs/lib/anime.es.js';
 import { FaArrowRight, FaBars, FaGithub, FaLinkedinIn, FaTimes } from 'react-icons/fa';
-import { FiArrowUpRight, FiDownload, FiMail } from 'react-icons/fi';
+import { FiArrowUpRight, FiDownload } from 'react-icons/fi';
 import Portrait from './assets/images/Sit.png';
 import Logo from './assets/images/wl2.png';
 import { capabilities, credentials, currentWork, engagements, projects } from './data/portfolio';
@@ -58,7 +58,7 @@ function App() {
           <p className="kicker hero-stagger">FULL-STACK DEVELOPER · SYSTEMS ANALYST</p>
           <h1 className="hero-stagger">I build software that feels <em>considered.</em></h1>
           <p className="hero-intro hero-stagger">I’m Wilson Lim—a full-stack engineer maintaining essential public-service systems at DSWD while building modern platforms, integrations, automation, and independent products.</p>
-          <div className="hero-actions hero-stagger"><button className="control primary" onClick={() => navigate('work')}>Explore my work <FaArrowRight /></button><a className="control" href="mailto:lim.wilson17@gmail.com">Start a conversation <FiMail /></a></div>
+          <div className="hero-actions hero-stagger"><button className="control primary" onClick={() => navigate('work')}>Explore my work <FaArrowRight /></button><button className="control" onClick={() => navigate('contact')}>Start a conversation <FiArrowUpRight /></button></div>
           <dl className="readouts hero-stagger"><div><dt>FOCUS</dt><dd>End-to-end products</dd></div><div><dt>BASED IN</dt><dd>Philippines</dd></div><div><dt>MODE</dt><dd>Build · learn · improve</dd></div></dl>
         </div>
         <div className="portrait-console" aria-label="Portrait of Wilson Lim">
@@ -102,7 +102,7 @@ function App() {
 
       <section id="contact" className="section-wrap contact-section"><div className="contact-console reveal">
         <div className="contact-copy"><span className="eyebrow">05 / Contact</span><h2>Let’s build something that holds up.</h2><p>Have a product, system, or role where thoughtful engineering matters? Tell me what you’re working on.</p></div>
-        <div className="contact-actions"><a className="control primary" href="mailto:lim.wilson17@gmail.com">lim.wilson17@gmail.com <FiArrowUpRight /></a><div className="socials"><a href="https://github.com/LIMW95" target="_blank" rel="noreferrer" aria-label="GitHub"><FaGithub /></a><a href="https://www.linkedin.com/in/wilson-lim-30a984213" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedinIn /></a></div></div>
+        <div className="contact-actions"><a className="control primary" href="https://www.linkedin.com/in/wilson-lim-30a984213" target="_blank" rel="noreferrer">Message me on LinkedIn <FiArrowUpRight /></a><div className="socials"><a href="https://github.com/LIMW95" target="_blank" rel="noreferrer" aria-label="GitHub"><FaGithub /></a><a href="https://www.linkedin.com/in/wilson-lim-30a984213" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedinIn /></a></div></div>
       </div></section>
     </main>
     <footer><span>© {new Date().getFullYear()} Wilson Lim</span><span>Designed and engineered with intention.</span><button onClick={() => navigate('home')}>Back to top ↑</button></footer>
