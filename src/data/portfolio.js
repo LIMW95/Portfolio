@@ -13,9 +13,15 @@ export const projects = [
 
 export const capabilities = [
   { group: 'Frontend', items: ['React', 'JavaScript', 'HTML', 'CSS', 'Responsive UI'] },
-  { group: 'Backend', items: ['Node.js', 'Python', 'PHP', 'Java', 'VB.NET', 'REST APIs'] },
-  { group: 'Data', items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Firebase'] },
-  { group: 'Delivery', items: ['GitHub', 'Docker', 'Automation', 'API integration'] },
+  { group: 'Backend and APIs', items: ['Node.js', 'Python', 'PHP', 'Java', 'VB.NET', 'REST APIs'] },
+  { group: 'Data systems', items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Firebase', 'Data modelling'] },
+  { group: 'Delivery', items: ['GitHub', 'Docker', 'Automation', 'Systems integration'] },
+];
+
+export const engineeringInterests = [
+  { title: 'Security-minded engineering', description: 'Designing APIs and applications with privacy, controlled access, careful data handling, and operational risk in mind.', signal: 'SEC' },
+  { title: 'Data and interoperability', description: 'Building reliable data flows and service integrations that help complex systems work together without losing context or integrity.', signal: 'DATA' },
+  { title: 'Automation and reliability', description: 'Reducing repetitive work, strengthening delivery practices, and making systems easier to operate and maintain over time.', signal: 'OPS' },
 ];
 
 export const currentWork = [

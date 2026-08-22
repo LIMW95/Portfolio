@@ -4,7 +4,7 @@ import { FaArrowRight, FaBars, FaGithub, FaLinkedinIn, FaTimes } from 'react-ico
 import { FiArrowUpRight, FiDownload } from 'react-icons/fi';
 import Portrait from './assets/images/Sit.png';
 import Logo from './assets/images/wl2.png';
-import { capabilities, credentials, currentWork, engagements, projects } from './data/portfolio';
+import { capabilities, credentials, currentWork, engagements, engineeringInterests, projects } from './data/portfolio';
 
 const navItems = ['home', 'current', 'work', 'expertise', 'about', 'contact'];
 
@@ -85,19 +85,22 @@ function App() {
           <div className="project-image"><img src={project.image} alt={`${project.title} project preview`} /></div>
           <div className="project-body"><span className="project-index">PROJECT / {String(index + 1).padStart(2, '0')}</span><p className="project-category">{project.category}</p><h3>{project.title}</h3><p>{project.description}</p><ul>{project.tags.map((tag) => <li key={tag}>{tag}</li>)}</ul><a href={project.link} target="_blank" rel="noreferrer" aria-label={`View ${project.title}`}>View project <FiArrowUpRight /></a></div>
         </article>)}</div>
-        <div className="archive-callout reveal"><span className="status-light amber" /><div><strong>The archive is expanding.</strong><p>Current and historical projects can be added without redesigning the page.</p></div><a href="https://github.com/LIMW95" target="_blank" rel="noreferrer">GitHub archive <FiArrowUpRight /></a></div>
         <div className="engagements reveal"><div><span className="eyebrow">DELIVERED / OUTSIDE WORK</span><h3>Additional engagements</h3></div>{engagements.map((item) => <article key={item.title}><span>{item.role}</span><h4>{item.title}</h4><p>{item.description}</p></article>)}</div>
       </section>
 
       <section id="expertise" className="section-wrap section-block">
         <SectionTitle eyebrow="03 / Capabilities" copy="A cross-functional toolkit for moving from a rough requirement to a maintainable, working product.">Tools are only useful in context.</SectionTitle>
         <div className="capability-grid">{capabilities.map((capability, index) => <article className="capability-card reveal" key={capability.group}><span>CH / {index + 1}</span><h3>{capability.group}</h3><ul>{capability.items.map((item) => <li key={item}>{item}</li>)}</ul></article>)}</div>
+        <div className="interest-panel reveal">
+          <div className="interest-heading"><span className="eyebrow">ENGINEERING DIRECTION</span><h3>Where I’m going deeper.</h3><p>These are active areas of study and practice shaped by the systems I work with—not a checklist of buzzwords.</p></div>
+          <div className="interest-list">{engineeringInterests.map((interest) => <article key={interest.title}><span>{interest.signal}</span><div><h4>{interest.title}</h4><p>{interest.description}</p></div></article>)}</div>
+        </div>
         <div className="credentials reveal"><div className="credentials-heading"><span className="eyebrow">TRAINING LOG</span><h3>Continuous learning, documented.</h3></div>{credentials.map((credential) => <article key={credential.title}><img src={credential.image} alt="" /><div><strong>{credential.title}</strong><span>{credential.issuer}</span></div></article>)}</div>
       </section>
 
       <section id="about" className="section-wrap section-block about-grid">
         <div><SectionTitle eyebrow="04 / About">An engineer who sees the whole system.</SectionTitle></div>
-        <div className="about-panel reveal"><span className="plate-label">PROFILE / WL-95</span><p className="about-lead">I care about the details users notice—and the infrastructure they shouldn’t have to.</p><p>My work spans frontend development, backend services, databases, and systems support. That range helps me understand where a product can become simpler, faster, and more dependable.</p><p>I’m most engaged when translating real operational needs into software people can trust every day.</p><div className="principles"><span>01 · CLARITY</span><span>02 · RELIABILITY</span><span>03 · CRAFT</span></div></div>
+        <div className="about-panel reveal"><span className="plate-label">PROFILE / WL-95</span><p className="about-lead">I care about the details users notice—and the infrastructure they shouldn’t have to.</p><p>My experience maintaining public-service platforms has made me attentive to reliability, privacy, data integrity, and the long-term cost of technical decisions. I work across interfaces, APIs, databases, and legacy systems to understand the whole operational picture.</p><p>I’m especially interested in secure software engineering, interoperable data systems, and automation that makes essential services easier to operate and trust.</p><div className="principles"><span>01 · SECURITY</span><span>02 · RELIABILITY</span><span>03 · DATA</span><span>04 · CRAFT</span></div></div>
       </section>
 
       <section id="contact" className="section-wrap contact-section"><div className="contact-console reveal">
